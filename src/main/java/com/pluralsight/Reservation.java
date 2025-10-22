@@ -1,6 +1,11 @@
 package com.pluralsight;
 
 public class Reservation {
+    public Reservation(String roomType, int numberOfNights, boolean isWeekend) {
+        this.roomType = roomType;
+        this.numberOfNights = numberOfNights;
+        this.isWeekend = isWeekend;
+    }
 
     private String roomType;
     private int numberOfNights;
@@ -40,6 +45,7 @@ public double getPrice(){
 
         double basePrice= 139;
         if(roomType.equalsIgnoreCase("king"));
+        return;
 }
 
 }

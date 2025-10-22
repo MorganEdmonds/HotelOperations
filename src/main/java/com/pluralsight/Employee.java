@@ -1,4 +1,10 @@
 package com.pluralsight;
 
-public class Employee {
+
+public void punchIn(double time){
+
+}
+
+public void punchOut(double time){
+
 }
